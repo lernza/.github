@@ -28,7 +28,7 @@ The smart contracts handle everything: **escrow, verification, and payout.** No 
 <br/>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/lernza/.github/main/profile/how-it-works.svg" alt="How Lernza works: Create → Fund → Learn → Earn" width="100%" />
+  <img src="https://raw.githubusercontent.com/lernza/lernza/main/.github/assets/how-it-works.svg" alt="How Lernza works: Create → Fund → Learn → Earn" width="100%" />
 </p>
 
 <br/>
