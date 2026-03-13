@@ -87,7 +87,7 @@ We're building Lernza in the open. Every contribution matters.
 <td width="50%">
 
 **[Security policy](https://github.com/lernza/lernza/blob/main/SECURITY.md)**<br/>
-<sub>Responsible vulnerability disclosure</sub>
+<sub>Vulnerability disclosure</sub>
 
 </td>
 </tr>
