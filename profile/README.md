@@ -73,7 +73,7 @@ We're building Lernza in the open. Every contribution matters.
 <td width="50%">
 
 **[Project board](https://github.com/orgs/lernza/projects/1)**<br/>
-<sub>See what's in we're working on/sub>
+<sub>See what's in we're working on</sub>
 
 </td>
 </tr>
