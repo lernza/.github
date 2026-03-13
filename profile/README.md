@@ -1,82 +1,100 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/lernza/lernza/main/frontend/public/logo.svg" alt="Lernza" width="120" height="120" />
-</p>
-
-<h1 align="center">Lernza</h1>
-
-<p align="center">
-  <strong>Learn stuff. Hit milestones. Earn tokens. Repeat.</strong>
+  <img src="https://raw.githubusercontent.com/lernza/.github/main/profile/banner.svg" alt="Lernza — Learn. Earn. On-chain." width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://lernza.com">Website</a> &bull;
-  <a href="https://github.com/lernza/lernza">Main Repo</a> &bull;
-  <a href="https://github.com/orgs/lernza/projects/1">Roadmap</a> &bull;
-  <a href="https://github.com/lernza/lernza/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">Contribute</a>
+  <a href="https://github.com/lernza/lernza"><img src="https://img.shields.io/badge/▶_Main_Repo-FACC15?style=flat-square&labelColor=000&logo=github&logoColor=fff" alt="Main Repo"></a>
+  <a href="https://lernza.com"><img src="https://img.shields.io/badge/Website-lernza.com-FACC15?style=flat-square&labelColor=000" alt="Website"></a>
+  <a href="https://github.com/lernza/lernza/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-FACC15?style=flat-square&labelColor=000" alt="MIT License"></a>
+  <a href="https://github.com/lernza/lernza/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/lernza/lernza/ci.yml?style=flat-square&label=CI&logo=github" alt="CI"></a>
 </p>
+
+<br/>
+
+<table>
+<tr>
+<td>
+
+### What we're building
+
+A creator sets up a **Quest** — a structured learning path with milestones like *"Build your first API"* or *"Deploy a smart contract."* They fund it with tokens. Learners enroll, complete milestones, get verified, and earn.
+
+The smart contracts handle everything: **escrow, verification, and payout.** No backend. No middleman. Just Stellar smart contracts and a React frontend.
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/lernza/.github/main/profile/how-it-works.svg" alt="How Lernza works: Create → Fund → Learn → Earn" width="100%" />
+</p>
+
+<br/>
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+**Soroban**<br/>
+<sub>Rust smart contracts on Stellar</sub>
+
+</td>
+<td width="33%" align="center">
+
+**React 19**<br/>
+<sub>TypeScript + Vite + Tailwind v4</sub>
+
+</td>
+<td width="33%" align="center">
+
+**Freighter**<br/>
+<sub>Stellar browser wallet</sub>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+### Get involved
+
+We're building Lernza in the open. Every contribution matters.
+
+<table>
+<tr>
+<td width="50%">
+
+**[Good first issues](https://github.com/lernza/lernza/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)**<br/>
+<sub>Tagged and ready to pick up</sub>
+
+</td>
+<td width="50%">
+
+**[Project board](https://github.com/orgs/lernza/projects/1)**<br/>
+<sub>See what's in progress across 64 issues</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**[Contributing guide](https://github.com/lernza/lernza/blob/main/CONTRIBUTING.md)**<br/>
+<sub>Setup, conventions, PR guidelines</sub>
+
+</td>
+<td width="50%">
+
+**[Security policy](https://github.com/lernza/lernza/blob/main/SECURITY.md)**<br/>
+<sub>Responsible vulnerability disclosure</sub>
+
+</td>
+</tr>
+</table>
 
 ---
 
-We're building the **learn-to-earn** platform on [Stellar](https://stellar.org) — where learning isn't just rewarding, it's *literally* rewarding. With tokens. On-chain. No cap.
-
-### Here's the deal
-
-You create a **Quest** (a structured learning journey). You fund it with tokens. Learners enroll, smash milestones, get verified, and the smart contracts pay them out automatically. No middleman, no "trust me bro" — just code doing its thing on the blockchain.
-
-```
-  📝 Create Quest  →  💰 Fund It  →  📚 Learn  →  🪙 Get Paid
-       you             you           them          automatic
-```
-
-### What's under the hood
-
-Three Soroban smart contracts (Rust → WASM), a React + TypeScript frontend with a neo-brutalist attitude, and Freighter wallet integration. Everything on-chain, no backend, no database — the Stellar blockchain *is* the backend.
-
-| | |
-|---|---|
-| **Smart Contracts** | Rust / Soroban SDK — Quest, Milestone, Rewards |
-| **Frontend** | React 19 + TypeScript + Vite + Tailwind + shadcn/ui |
-| **Wallet** | Freighter (browser extension) |
-| **Design** | Neo-brutalism — bold borders, offset shadows, high contrast |
-| **License** | MIT — take it, fork it, remix it |
-
-### Why we exist
-
-Most learning platforms rely on vibes and willpower. We add **skin in the game**. Real tokens locked in smart contracts. The creator stakes it, the learner earns it. Simple incentive design, powerful outcomes.
-
-**Think:**
-- A company onboarding devs with milestone-based bounties
-- A DAO funding community education with verifiable outcomes
-- A mentor putting real stakes behind a mentee's growth
-- A teacher gamifying coursework with micro-rewards
-
-### Want to help build this?
-
-We're open source, MIT licensed, and actively building in the open. We have 60+ issues across smart contracts, frontend, design, docs, and infra.
-
-**Jump in:**
-
-- 🟣 Browse the **[main repo](https://github.com/lernza/lernza)** — smart contracts, frontend, everything lives here
-- 🎯 Grab a **[good first issue](https://github.com/lernza/lernza/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)** — tagged and ready for new contributors
-- 🗺️ Check the **[project board](https://github.com/orgs/lernza/projects/1)** — see what's in progress and what's next
-- 💬 Start a **[discussion](https://github.com/lernza/lernza/discussions)** — ideas, questions, vibes
-
-We especially need help with **Rust/Soroban contracts**, **React/TypeScript frontend**, **neo-brutalism design**, and **documentation**.
-
----
-
 <p align="center">
-  <sub>Building the future where learning pays — one milestone at a time.</sub>
-</p>
-
-<p align="center">
-  <a href="https://github.com/lernza/lernza">
-    <img src="https://img.shields.io/github/stars/lernza/lernza?style=flat-square&color=6366F1&label=Stars" alt="Stars">
-  </a>
-  <a href="https://github.com/lernza/lernza/issues">
-    <img src="https://img.shields.io/github/issues/lernza/lernza?style=flat-square&color=6366F1&label=Issues" alt="Issues">
-  </a>
-  <a href="https://github.com/lernza/lernza/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-6366F1?style=flat-square" alt="MIT License">
-  </a>
+  <sub><strong>Commitment through incentive.</strong></sub>
 </p>
